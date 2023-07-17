@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Challenge</title>
+    <style></style>
+  </head>
+  <style>
+    p{
+      margin: 0;
+      font-family: 'Lucida Sans';
+    }
+    .bar{
+      display: flex;
+      flex-direction: row;
+      height: 55px;
+      background-color: blueviolet;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .frst{
+      justify-content: start;
+      margin: 0 15px;
+      color: white;
+      font-weight: bolder;
+    }
+    .scnd{
+      flex: 1;
+      max-width: 500px;
+      height: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+      border-radius: 25px;
+      border: none;
+      padding: 5px;
+    }
+    .thrd{
+      margin: 0 15px;
+      height: 30px;
+      border-color: white;
+      border-style: solid;
+      background-color: blueviolet;
+      border-width: 1px;
+      color: white;
+      justify-content: end; 
+      transition: color 0.2s, border-color 0.2s background-color 0.2s;
+    }
+    .thrd:hover{
+      border-color: blueviolet;
+    }
+    .thrd:active{
+      background-color: white;
+      color: blueviolet;
+    }
+
+  </style>
+  <body>
+    <div class="bar">
+      <div class="home">
+        <p class="frst">Home</p>
+      </div>
+      <input class="scnd" type="text" placeholder="  Search">
+      <div class="dwnld">
+        <button class="thrd">Download</button>
+      </div>
+    </div>
+  </body>
+</html>

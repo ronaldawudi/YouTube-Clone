@@ -1,0 +1,36 @@
+p{
+  font-family: Arial;
+  font-size: 14px;
+  margin: 0px;
+}
+.lorem {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.stats {
+  color: #6d6868;
+  margin: 0;
+  font-size: 14px;
+}
+.mee {
+  color: #6d6868;
+  margin-top: 20px;
+}
+.descrpt{
+  color: #6d6868;
+  margin-top: 20px;
+  line-height: 22px;
+}
+.ad{
+margin-top: 50px;
+color: white;
+background-color: rgb(241, 62, 62);
+text-align: center;
+padding: 20px 0;
+}
+.ad span:hover{
+text-decoration: underline;
+cursor: pointer;
+}

@@ -1,0 +1,37 @@
+    <div style="display: grid;
+    grid-template-columns: 100px 1fr 2fr;">
+      <div style="background-color: lightblue;">
+        div 1
+        <p>hi</p>
+      </div>
+      <div style="background-color: lightpink;">
+        div 2
+      </div>
+      <div style="background-color: lightgrey;">
+        div 2
+      </div>
+    </div>
+    <div style="display: grid;
+    margin-top: 20px;
+    grid-template-columns: 100px 1fr 2fr;">
+      <div style="background-color: lightblue;">
+        div 1
+        <p>hi</p>
+      </div>
+      <div style="background-color: lightpink;">
+        div 2
+      </div>
+      <div style="background-color: lightgrey;">
+        div 2
+      </div>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    
+  </body>
+</html>
